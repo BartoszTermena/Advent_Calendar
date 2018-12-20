@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.btn-start {
+    width: 10rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: #fa923f;
+    color: white;
+    border: 2px solid #512751;
+    border-radius: 15px;
+    margin: 15px auto;
+    display: block;
+}
+.container {
+    width: 800px;
+    height: 900px;
+    border: 5px solid black;
+    margin: 15px auto;
+    background-image: url('https://cdn2.vectorstock.com/i/1000x1000/56/16/funny-santa-christmas-greeting-card-vector-11785616.jpg');
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+        "door3 door7 door6 door15"
+        "door5 door16 door20 door18"
+        "door17 door12 door24 door4"
+        "door13 door2 door22 door19"
+        "door11 door23 door1 door10"
+        "door8 door14 door21 door9";
+}
+.image {
+    background-image: url('https://img.freepik.com/free-vector/christmas-background-with-beautiful-ornaments_1361-824.jpg?size=338&ext=jpg');
+    background-size: cover;
+    background-position: center;
+    color:white
+}
